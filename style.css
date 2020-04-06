@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.25rem;}
+.trash {
+    margin-left: 0.5rem;
+    cursor: pointer;}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.input{
+    outline: none;
+    padding: 5px 15px;
+    box-shadow: 0 0 10px #acb883;
+    border:2px solid green;}
+.input_error{
+    box-shadow: 0 0 10px #c74066;
+    border: 2px solid red;}
+.tooltip{
+    margin: 0 0 20px 20px;
+    visibility: hidden;}
+.tooltiptext {
+    position: relative;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 0.8rem;
+    transition: opacity 0.3s;}
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;}
+#btn{
+    background-color: #5b7494;
+    padding: 5px 15px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px #104280;
+    color: white;}
+#ul li{
+    margin-top: 5px;
+    list-style-type:decimal;}
+#ul{
+    border-bottom: 1px solid #ddd;
+    padding-left: 1685px;
+    width: 100%;}
